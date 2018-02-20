@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyHeight="10%p"
+    android:keyWidth="12.50%p">
+    <!-- 이미지가 아닌 본래 숫자로 쓰려면,, android:keyLabel="1"-->
+    <Row>
+        <Key
+            android:codes="49"
+            android:keyEdgeFlags="left"
+            android:keyIcon="@drawable/if_key_1_14971" />
+
+        <Key
+            android:codes="50"
+            android:keyIcon="@drawable/if_key_2_14972" />
+
+        <Key
+            android:codes="51"
+            android:keyIcon="@drawable/if_key_3_14973" />
+
+        <Key
+            android:codes="52"
+            android:keyIcon="@drawable/if_key_4_14974" />
+
+        <Key
+            android:codes="53"
+            android:keyIcon="@drawable/if_key_5_14975" />
+        <Key
+            android:codes="-3"
+            android:horizontalGap="3.25%p"
+            android:isRepeatable="true"
+            android:keyIcon="@drawable/if_key_dash_15001" />
+    </Row>
+    <Row>
+        <Key
+            android:codes="54"
+            android:keyIcon="@drawable/if_key_6_14976" />
+
+        <Key
+            android:codes="55"
+            android:keyIcon="@drawable/if_key_7_14977" />
+
+        <Key
+            android:codes="56"
+            android:keyIcon="@drawable/if_key_8_14978" />
+
+        <Key
+            android:codes="57"
+            android:keyIcon="@drawable/if_key_9_14979" />
+
+        <Key
+            android:codes="48"
+            android:keyIcon="@drawable/if_key_0_14970" />
+
+        <Key
+            android:codes="-5"
+            android:horizontalGap="3.25%p"
+            android:isRepeatable="true"
+            android:keyIcon="@drawable/if_key_left_15036" />
+    </Row>
+
+
+</Keyboard>
